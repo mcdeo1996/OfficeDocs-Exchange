@@ -73,7 +73,7 @@ To improve overall performance, Client Access Rules use a cache, which means cha
 
 #### Administration
 
-You can only use the Exchange Managment Shell (remote PowerShell) to manage Client Access Rules, so you need to be careful about rules that block your access to remote PowerShell.
+You can only use the Exchange Management Shell (remote PowerShell) to manage Client Access Rules, so you need to be careful about rules that block your access to remote PowerShell.
 
 As a best practice, create a Client Access Rule with the highest priority to preserve your access to remote PowerShell. For example:
 
