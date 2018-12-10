@@ -163,7 +163,7 @@ Set-ClientAccessRule -Identity "<RuleName>" -Priority <Number>
 This example sets the priority of the rule named Disable PowerShell to 3. All existing rules that have a priority less than or equal to 3 are decreased by 1 (their priority numbers are increased by 1).
 
 ```
-Set-ClientAccessRule -Identity "Disable PowerShell" -Priority 4
+Set-ClientAccessRule -Identity "Disable PowerShell" -Priority 3
 ```
 
  **Note**: To set the priority of a new rule when you create it, use the _Priority_ parameter on the **New-ClientAccessRule** cmdlet. 
